@@ -1,0 +1,320 @@
+sudo echo echo
+echo Hello world
+echo 'Hello world'
+echo Hello; echo world
+echo 'hello; echo world'
+echo $SHELL
+echo '$SHELL'
+echo "$SHELL"
+echo `date`
+echo date
+echo "date"
+echo "$(date)"
+echo $SHELL
+printenv
+history
+echo "hola hola $(SHELL)"
+echo "hola hola $(date)"
+echo "hola hola" `date`
+echo `echo $(date)`
+echo "World\
+is nice\
+and so on"
+echo
+echo 'this is\
+another "\
+one more time'
+echo " this is\
+another '\
+one more time"
+echo "world \\
+is on the same line"
+echo "world\ is on the same line\
+"
+echo " fjsadkf\
+sdf\
+dsf
+echo "This is \n new line"
+echo "This is \t new line"
+echo "This is \\ new line"
+echo this; echo that
+echo this\; echo that
+echo this \\ echo that
+echo "this is text with" comillas dobles"\
+"
+echo "this is text with \" comillas dobles"
+echo "This dollar sign $"
+echo " this dollar sign \$SHELL"
+echo " this dollar sign \$SHELL"''''
+echo this \; echo that
+echo -e this ; echo that
+cat /proc/cpuinfo
+cd
+cd data/
+cd Data/
+cd
+cd\
+
+cd Music
+cd
+cd Data/shell
+cd 
+cd -
+bash
+cd ../
+cd -
+cd
+exit
+cat Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cat -n Text_example.txt
+cd
+cat DAta/shell/Text_example.txt
+cat Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+cat books
+cat ./Data/shell/Text_example.txt
+cat ~/Data/shell/Text_example.txt
+pwd
+cd Data
+pwd
+cat ~/Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+cat /home/dsc/Data/shell/Text_example.txt 
+ls
+cd 
+ls
+cd Data/challenge
+ls
+cd 
+ls anaconda3
+cd anaconda3
+ls
+ls -1
+ls -s
+ls -s -1
+cd 
+ls -a
+ls -la
+ls -l
+ls -as
+ls -asl
+ls -asr
+ls -asrl
+ls -aSrl
+ls -atrl
+history
+touch file00
+ls file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+rwx = 101 = 2(2)*1 + 2(1)*0 + 2(0)*1 = 5
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+chmod u-x,o-x file00
+ls -l file00
+chmod g-x file00
+ls -l file00
+mkdir my_second_dir
+rm file00
+rm my_second_dir
+ls
+rm -r my_second_dir
+ls
+touch fichero2
+cp fichero2 fichero3
+ls
+mkdir my_first_dir
+cp fichero2 fichero3 my_first_dir
+ls
+cd my_first_dir
+ls
+cd..
+cd 
+cp my_first_dir my_second_dir
+cp -r my_first_dir my_second_dir
+ls
+cd my_second_dir
+ls
+cd ./
+cd .
+cd 
+ls
+mv fichero my_first_dir
+mv fichero2 my_first_dir
+ls
+ls my_second_dir
+man cp
+cp --help
+mkdir first_dir
+ls
+cd first_dir
+touch text_file.txt
+mc o+w
+chmod o+w
+chmod o+w text_file
+chmod o+w text_file.txt
+chmod g+x text_file.txt
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1
+cd sub1
+mv text_file.txt /sub2
+mv text_file.txt sub2
+ls
+cd sub2
+ls
+mv sub2 text_file.txt 
+ls
+mv text_file.txt //first_dir/sub2
+mv text_file.txt ~/first_dir/sub2
+ls ~/first_dir/sub2
+cd //
+cd first_dir
+ls
+cd home/dsc
+ls
+git config
+git config --global user.name "Matias"
+git config --global user.email "matiaschiozzi@gmail.com"
+cat .gitconfig
+pwd
+mkdir git
+cd git
+cd..
+cd
+cd git
+echo "# shell"
+echo "# shell" >> README.md
+ls
+cat README.md
+git status
+git init
+git config --get user.name
+ll
+git add README.md
+git commit -m "first commit readme.md"
+git branch -M main
+git status
+git remote add origin https://github.com/matiasch11/shell.git
+git push -u origin main
+gedit README.md
+git add README.md
+git commit -m "README edited"
+git push origin master
+git push origin main
+cd
+man 
+man bash
+head -n
+head -n 10
+ls
+head -n 10 fichero3
+head fichero3
+cd data
+ls
+cd Data
+cd opentraveldata
+head optd_airlines.csv
+head -n 10 optd_airlines.csv
+head -n optd_airlines.csv
+head -n 10 optd_airlines.csv
+head optd_airlines.csv
+less optd_airlines.csv
+cd ..
+cd shell
+less Finn.txt
+cd ..
+cd opentraveldata
+less optd_aircraft.csv
+which bash
+wich whoami
+which whoami
+echo $PATH
+ll
+alias
+type python
+echo 'Hello World'
+"hello $HOME"
+echo "hello $HOME"
+"date"
+echo "date"
+echo 'date'
+echo `date`
+echo "$(date)"
+echo '$(cate)'
+echo '$(date)'
+echo SSHELL
+echo $SHELL
+echo $TERM
+whoami
+echo $HOST
+echo $USER
+printenv
+printenv USER
+printenv HOST
+echo
+echo "World\\
+is mine too"
+echo "World" \ "is mine too"
+echo thisi is backlash \\ 
+echo "Hello \"World\""
+echo "this is \n newline"
+cd Data
+cd shell
+cat Text_example.txt
+cat -n Text_example.txt
+cd ..
+cat Data/shell/Text_example.txt
+pwd
+echo SPWD
+echo $PWD
+echo \$PWD
+cd 
+cd/
+cd /
+cd ./
+cd./
+cd ../
+cd 
+cd /home
+cd ..
+ls
+ls -1
+ls -s
+ls -1s
+ls -s
+ls -1s
+ls -s1
+ls -lH
+ls -S
+ls -t
+chmod u+r, g+xw
+ll
+clear
+echo "Hola mundo"
+cat pp.txt
+echo "Hola mundo" > pp.txt
+head pp.txt
+echo "Hola mundo" >> pp.txt
+head pp.txt
+echo "Adios mundo cruel" > pp.txt
+head pp.txt
+exit
+ls -lrth
+ls pp.txt
+touch pp2.txt
+ls pp
+echo ""> pp3.txt
+ls
+gedit pp4.txt
+ls
+echo $HISTFILE
+tail -n 10 /home/dsc/.history
+ls .history
+ls -l .history
+cp /home/dsc/.history /home/dsc/git/
