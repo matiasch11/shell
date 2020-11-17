@@ -344,3 +344,83 @@ cd ..
 ll
 cd git 
 cp ~/.history history_17112020.txt
+ls
+cat history_17112020.txt
+ll
+ls -a
+status
+git status
+git add history_20201117.txt
+git commit - m history_20201117.txt
+git commit -m "el historial" 
+git push origin master
+git push origin main
+git status
+git add
+git add .
+git commit -m "otro intento"
+git push origin main
+git status
+history -i
+history -s
+history -f
+cd 
+ls -l
+cd Data
+ll
+cd shell
+ll
+wc Text_example.txt
+echo "hola" | wc
+echo -n "hola" | wc
+cat Text_example.txt| wc
+cat Text_example.txt| wc-l
+cat Text_example.txt| wc -l
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv | wc
+head -c 1k optd_aircraft.csv | wc
+head -c 1K optd_aircraft.csv | wc
+cd ..
+ll
+cd opentraveldata
+head -c 1K optd_aircraft.csv | wc
+tail -c -1k optd_aircraft.csv | wc
+ll
+ls 
+ls -l optd_por_public.csv
+ls -lrt | head -n 2
+ls -lrt | tail -n 1
+ls -sS
+ls -sSlr
+ls -sSl
+ls -sSl | tail -n 1
+ls -sSlr | tail -n 1
+ls -sSlr | tail -n 1 > largest_file
+cat largest_file
+cd ..
+cd Shell
+cd shell
+wc Finn.txt
+cat Finn.txt
+wc -w Finn.txt
+cat -n Text_example.txt| head n-3
+head -n 5 Finn.txt | wc -w
+cd ..
+cat -n
+cat -n Data/shell/Finn.txt | head -n 3
+ls Data/shell
+cat -n Data/shell/Text_example.txt
+cat -n Data/shell/Text_example.txt > Text_example2.txt
+touch Text_example3.txt
+cat Data/shell/Tex_example.txt | Text_example3.txt
+cat Data/shell/Tex_example.txt >> Text_example3.txt
+cat Data/shell/Tex_example.txt | >> Text_example3.txt
+cat Data/shell/Text_example.txt >> Text_example3.txt
+cat Text_example3.txt
+cat ~/.history | grep rsync
+ls
+echo $(date)
+echo $(user)
+echo "user"
+cd git
+cp $HISTFILE ~/git/history_17112020.txt
